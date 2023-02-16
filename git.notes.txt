@@ -1,0 +1,32 @@
+Setting up security to push my files from git to github
+
+  git remote add origin https://github.com/OT-Coyote/cpp-version4-c11.git
+  git branch -M main
+  git push -u origin main
+
+
+Solution:
+https://github.com/GitCredentialManager/git-credential-manager/blob/main/docs/credstores.md
+git config --global credential.credentialStore cache
+A browser popped up, I had to login with my browser
+
+
+To get github to work I need to use a Credential Manager
+
+This is the best soluttion
+https://github.com/GitCredentialManager/git-credential-manager/blob/main/README.md
+
+(*) GCM guarantees support only for the Linux distributions that are officially supported by dotnet.
+https://learn.microsoft.com/en-us/dotnet/core/install/linux   (start here)`
+  - Installed aspnetcore-runtime-7.0
+
+
+
+
+
+
+https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls
+
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
+
