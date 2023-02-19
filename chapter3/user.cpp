@@ -12,3 +12,5 @@ void fct(int n)
        Vector v2(2*n);
    } 
 }
+
+int main() {}

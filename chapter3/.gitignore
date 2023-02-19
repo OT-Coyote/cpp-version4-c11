@@ -1,0 +1,9 @@
+# ignore vi .swp file
+.*.swp
+# ignore default compiled c/c++ files
+*.out
+
+# ignore generated html files,
+# *.html
+# except foo.html which is maintained by hand
+# !foo.html
